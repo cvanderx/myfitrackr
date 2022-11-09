@@ -1,0 +1,8 @@
+type MyfitrackrProdDB @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  alias: String!
+  name: String!
+  workout: String!
+  count: Int!
+  profilepicurl: String!
+}
